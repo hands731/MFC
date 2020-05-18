@@ -1,0 +1,14 @@
+#ThredTxt
+-Critical, Semaphore, Mutex를 progressbar control 사용해 나타냄
+
+#txtSearch_Test
+-Lot Number을 txt파일에 생성한 후 중복되는 LotNum을 검사(check)함
+
+#Ini_Test
+-Ini파일 write, readd.
+
+#Csv_Test
+-progressbar Control 을 Semaphore이용해 동작. 임계영역 대기라인과 실행Log를볼 수 있음.
+
+#test1
+-List 입력, List간 데이터 이동, 삭제, txt파일 read, write.

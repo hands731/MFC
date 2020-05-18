@@ -1,0 +1,56 @@
+﻿빌드 시작: 2019-07-30 오전 8:53:54
+     1>2 노드의 "D:\Work\threadTxt\threadTxt\threadTxt.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\threadTxt.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\boost_1_70_0\stage\lib /IC:\boost_1_70_0 /ZI /nologo /W2 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\threadTxt.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt threadTxtDlg.cpp
+         threadTxtDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: 'INT8_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 'INT8_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: 'INT16_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 'INT16_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: 'INT32_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 'INT32_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: 'INT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 'INT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: 'INT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 'INT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: 'INT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 'INT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: 'UINT8_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 'UINT8_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: 'UINT16_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 'UINT16_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: 'UINT32_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 'UINT32_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: 'INT64_MIN' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 'INT64_MIN'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: 'INT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 'INT64_MAX'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: 'UINT64_MAX' : 매크로 재정의
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 'UINT64_MAX'의 이전 정의를 참조하십시오.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\threadTxt\Debug\threadTxt.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\boost_1_70_0\stage\lib /MANIFEST /ManifestFile:"Debug\threadTxt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\threadTxt\Debug\threadTxt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\threadTxt\Debug\threadTxt.lib" /MACHINE:X86 Debug\threadTxt.res
+         Debug\threadTxt.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\threadTxt.obj
+         Debug\threadTxtDlg.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\threadTxt.exe.embed.manifest" /manifest Debug\threadTxt.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         threadTxt.vcxproj -> D:\Work\threadTxt\Debug\threadTxt.exe
+       FinalizeBuildStatus:
+         "Debug\threadTxt.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\threadTxt.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Work\threadTxt\threadTxt\threadTxt.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.79
